@@ -1,0 +1,300 @@
+.crew-body{
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.crew{
+    padding-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 76vh;
+}
+.section-crew{
+    width: 80%;
+    height: 100%;
+}
+.title-crew{
+    height: 10%;
+}
+.title-crew h1{
+    font-weight: 400;
+}
+.title-crew span{
+    color: gray;
+    font-weight: 400;
+    padding-right: 30px;
+}
+.content-crew{
+    height: 89%;
+    display: flex;
+}
+.content-crew-left{
+    height: 100%;
+    width: 55%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-content-info{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.left-content-info h2{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: gray;
+    font-family: "Bellefair", serif;
+}
+.left-content-info h1{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: "Bellefair", serif;
+}
+.left-content-info p{
+    color: gray;
+    width: 65%;
+    font-size: 1.2rem;
+    font-family: 'Barlow condensed', serif;
+}
+.left-content-btn{
+    height: 30%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-content-btn button{
+    padding: 5px 5px;
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    position: relative;
+}
+.left-content-btn button:hover{
+    background-color: white;
+}
+button.dot{
+    background-color:white;
+}
+/* button.dot::after{
+    content: "";
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+} */
+.content-crew-right{
+    height: 100%;
+    width: 45%;
+}
+.content-crew-right img{
+    height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .crew-body{
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .crew{
+        padding-top: 110px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+    }
+    .section-crew{
+        width: 90%;
+        height: 100%;
+    }
+    .title-crew{
+        height: 5%;
+    }
+    .title-crew h1{
+        font-weight: 400;
+    }
+    .title-crew span{
+        color: gray;
+        font-weight: 400;
+        padding-right: 30px;
+    }
+    .content-crew{
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-crew-left{
+        height: 40%;
+        width: 100%;
+        
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .left-content-info{
+        height: 70%;
+         /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        line-height: 4rem;
+    }
+    .left-content-info h2{
+        font-weight: 200;
+        font-size: 1.6rem;
+        color: gray;
+        font-family: "Bellefair", serif;
+    }
+    .left-content-info h1{
+        font-weight: 100;
+        font-size: 2.5rem;
+        font-family: "Bellefair", serif;
+    }
+    .left-content-info p{
+        color:white;
+        font-weight: 100;
+        width: 70%;
+        font-size: 1.3rem;
+        font-family: 'Barlow condensed', serif;
+        word-spacing: 1px;
+        line-height: 2rem;
+       
+    }
+    .left-content-btn{
+        height: 10%;
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left-content-btn button{
+        padding: 6px 6px;
+        border-radius: 50%;
+    }
+    .content-crew-right{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .content-crew-right img{
+        height: 100%;
+    }
+}
+@media (min-width: 370px) and (max-width: 767px) {
+    .crew-body{
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .crew{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    .section-crew{
+        width: 90%;
+        height: 100%;
+    }
+    .title-crew{
+        height: 10%;
+    }
+    .title-crew h1{
+        font-weight: 400;
+        text-align: center;
+    }
+    .title-crew span{
+        color: gray;
+        font-weight: 400;
+        padding-right: 30px;
+    }
+    .content-crew{
+        height: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .content-crew-left{
+        height: 55%;
+        width: 100%;
+        
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .left-content-info{
+        
+        height: 80%;
+         /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        line-height: 3rem;
+    }
+    .left-content-info h2{
+        font-weight: 200;
+        font-size: 1.2rem;
+        color: gray;
+        font-family: "Bellefair", serif;
+    }
+    .left-content-info h1{
+        font-weight: 100;
+        font-size: 1.8rem;
+        font-family: "Bellefair", serif;
+    }
+    .left-content-info p{
+        color:white;
+        font-weight: 100;
+        width: 95%;
+        font-size: 1.25rem;
+        font-family: 'Barlow condensed', serif;
+        line-height: 2rem;
+        text-align: center;
+        
+       
+    }
+    .left-content-btn{
+        height: 10%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left-content-btn button{
+        padding: 6px 6px;
+        border-radius: 50%;
+    }
+    .content-crew-right{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid grey;
+    }
+    .content-crew-right img{
+        height: 100%;
+    }
+}

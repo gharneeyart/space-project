@@ -1,0 +1,328 @@
+.technology-body{
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.technology{
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.tech-container{
+    
+    height: 70vh;
+    width: 90%;
+}
+.title-tech{
+    font-size: 1rem;
+    height: 10%;
+}
+.title-tech h1{
+    font-weight: 400;
+}
+.title-tech span{
+    color: gray;
+    padding-right: 30px;
+}
+.tech-content{
+    
+    height: 90%;
+    display: flex;
+}
+.tech-content-left{
+   
+    height: 100%;
+    width: 60%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: start;
+}
+.left-button{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.left-button button{
+    height: 30%;
+    width: 40%;
+    border-radius: 50%;
+    font-weight: 100;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 15px;
+    /* position: relative; */
+}
+button.select{
+    background-color:white;
+    color: grey;
+}
+/* button.select::after{
+    content:"";
+    width: 100%;
+    color: white;
+    background-color: gray;
+    border: 1px solid white;
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+} */
+.left-content {
+    color: white;
+    width: 61%;
+    height: 60%;
+    
+}
+.left-content h3{
+    font-family: 'Barlow condensed', serif;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.left-content h1{
+    font-family: "Bellefair", serif;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.left-content p{
+    font-family: 'Barlow condensed', serif;
+    font-size: 1.225rem;
+}
+.tech-content-right{
+   
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.tech-content-right img{
+    height: 100%;
+    width: 80%;
+}
+.mobile-tech{
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .technology-body{
+        background-image: url(../assets/technology/background-technology-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .technology{
+        padding-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .tech-container{
+      
+        height: 80vh;
+        width: 100%;
+    }
+    .title-tech{
+        font-size: 1rem;
+        height: 7%;
+    }
+    .title-tech h1{
+        font-weight: 400;
+    }
+    .title-tech span{
+        color: gray;
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+    .tech-content{
+       
+        height: 93%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tech-content-left{
+     
+        height: 60%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .left-button{
+        width: 35%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        align-items: center;
+    }
+    .left-button button{
+        height: 45%;
+        width: 25%;
+        border-radius: 50%;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .left-content {
+        color: white;
+        width: 60%;
+        height: 70%;
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-content h3{
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+    .left-content h1{
+        font-family: "Bellefair", serif;
+        font-weight: 300;
+        padding-bottom: 1.2rem;
+        font-size: 2.7rem;
+    }
+    .left-content p{
+        font-family: 'Barlow condensed', serif;
+        font-size: 1.45rem;
+        font-weight: 100;
+    }
+    .tech-content-right{
+        
+        height: 40%; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tech-content-right img{
+        width: 100%;
+    }
+    .desktop-tech{
+        display: none;
+    }
+    .mobile-tech{
+        display: block;
+    }
+
+}
+@media (min-width: 370px) and (max-width: 767px) {
+    .technology-body{
+        background-image: url(../assets/technology/background-technology-mobile.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .technology{
+        padding-top: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        height: 80vh;
+    }
+    .tech-container{
+       
+        height: 100%;
+        width: 100%;
+    }
+    .title-tech{
+        font-size: 0.8rem;
+        height: 10%;
+        text-align: center;
+        font-weight: 100;
+    }
+    .title-tech h1{
+        font-weight: 400;
+    }
+    .title-tech span{
+        color: gray;
+        padding-right: 30px;
+    }
+    .tech-content{
+       
+        height: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tech-content-left{
+      
+        height: 60%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .left-button{
+        width: 50%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        align-items: center;
+    }
+    .left-button button{
+        height: 55%;
+        width: 22%;
+        border-radius: 50%;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .left-content {
+        color: white;
+        width: 90%;
+        height: 75%;
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-content h3{
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        padding-bottom: 0.8rem;
+        font-size: 1rem;
+    }
+    .left-content h1{
+        font-family: "Bellefair", serif;
+        font-weight: 300;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .left-content p{
+        font-family: 'Barlow condensed', serif;
+        font-size: 1.3rem;
+        font-weight: 100;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .tech-content-right{
+        
+        height: 40%; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tech-content-right img{
+        width: 100%;
+    }
+    .desktop-tech{
+        display: none;
+    }
+    .mobile-tech{
+        display: block;
+    }
+}

@@ -1,0 +1,362 @@
+.destination-body{
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.destination{
+    padding-top: 140px;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+    width: 70%;
+}
+.main .title-text-dest{
+    width: 100%;
+    height: 10%;
+}
+.title-text-dest h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Barlow condensed', serif;
+}
+.title-text-dest span{
+    color: gray;
+    padding-right: 10px;
+}
+.content-dest{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content-dest-img{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2rem;
+}
+.content-dest-img img{
+    width: 60%;
+    height: 80%;
+}
+.content-dest-text{
+    color: aliceblue;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn-dest{
+    height: 10%;
+    display: flex; 
+}
+.btn-dest button{
+    height: 100%;
+    width: auto;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    font-family: 'Barlow condensed', serif;
+    position: relative;
+    margin-right: 20px;
+    
+}
+button.click::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+
+}
+.middle-text{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.middle-text h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.middle-text p{
+    font-size: 1.05rem;
+    font-family: 'Barlow condensed', serif;
+    font-weight: 100;
+}
+.border-line{
+    border: 1px solid grey;
+}
+.bottom-text{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-bottom{
+    padding-right: 2rem;
+}
+.bottom-text p{
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-family: 'Barlow condensed', serif;
+}
+.bottom-text h3{
+    padding-top: 0.3rem;
+    font-weight: 100;
+    font-family: "Bellefair", serif;
+}
+@media (min-width: 370px) and (max-width: 767px) {
+    .destination-body{
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .destination{
+        padding-top: 80px;
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 100%;
+        width: 95%;
+    }
+    .main .title-text-dest{
+        width: 100%;
+        height: 7%;
+    }
+    .title-text-dest h1{
+        font-weight: 400;
+        font-size: 1.5rem;
+        font-family: 'Barlow condensed', serif;
+        text-align: center;
+    }
+    .title-text-dest span{
+        color: gray;
+        padding-right: 10px;
+    }
+    .content-dest{
+        height: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content-dest-img{
+        width: 40%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -2.5rem;
+    }
+    .content-dest-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-dest-text{
+        color: white;
+        width: 78%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .btn-dest{
+        height: 10%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center; 
+    }
+    .btn-dest button{
+        height: 100%;
+        width: auto;
+        font-size: 1rem;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-weight: 200;
+        font-family: 'Barlow condensed', serif;
+    }
+    .middle-text{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-text h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    .middle-text p{
+        font-size: 1.1rem;
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        text-align: center;
+    }
+    .border-line{
+        border: 1px solid grey;
+    }
+    .bottom-text{
+        height: 35%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       text-align: center;
+    }
+    .left-bottom{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        padding-right: 0px;
+    }
+    .bottom-text p{
+        font-size: 1.2rem;
+        font-weight: 200;
+        font-family: 'Barlow condensed', serif;
+    }
+    .bottom-text h3{
+        font-size: 1.5rem;
+        padding-top: 0.3rem;
+        font-weight: 100;
+        font-family: "Bellefair", serif;
+    }
+   
+   }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .destination-body{
+        background-image: url(../assets/destination/background-destination-tablet.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    .destination{
+        padding-top: 100px;
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 100%;
+        width: 95%;
+    }
+    .main .title-text-dest{
+        width: 100%;
+        height: 10%;
+    }
+    .title-text-dest h1{
+        font-weight: 200;
+        font-size: 1.7rem;
+        font-family: 'Barlow condensed', serif;
+    }
+    .title-text-dest span{
+        color: gray;
+        padding-right: 10px;
+    }
+    .content-dest{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content-dest-img{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+    }
+    .content-dest-img img{
+        width: 60%;
+        height: 80%;
+    }
+    .content-dest-text{
+        color: aliceblue;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .btn-dest{
+        height: 10%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center; 
+    }
+    .btn-dest button{
+        height: 100%;
+        width: auto;
+        font-size: 1.2rem;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-weight: 100;
+        font-family: 'Barlow condensed', serif;
+    }
+    .middle-text{
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-text h1{
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    .middle-text p{
+        font-size: 1.4rem;
+        font-family: 'Barlow condensed', serif;
+        font-weight: 100;
+        text-align: center;
+    }
+    .border-line{
+        border: 1px solid grey;
+    }
+    .bottom-text{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .left-bottom{
+        padding-right: 8rem;
+    }
+    .bottom-text p{
+        font-size: 1.1rem;
+        font-weight: 100;
+        font-family: 'Barlow condensed', serif;
+        text-align: center;
+    }
+    .bottom-text h3{
+        font-size: 1.6rem;
+        padding-top: 0.3rem;
+        font-weight: 100;
+        font-family: "Bellefair", serif;
+        text-align: center;
+    }
+   
+   }
